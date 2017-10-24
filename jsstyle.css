@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: fantasy;
+    color: #666666;
+}
+
+body {
+    background-color: orange;
+}
+
+.top-bar {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+   font-size: 40px;
+   position: absolute;
+   padding: 1px 1px 1px 1px;
+   z-index: 3;
+   color: azure;
+   font-weight: normal;
+}
+
+.top-menu {
+   background-color: red;
+   position: absolute;
+   top: 85px;
+   z-index: 2;
+   width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: armenian;
+    font-size: 20px; 
+    float: left;
+    margin-right: 40px;
+}
+
+.top-menu li {
+    display: inline-table;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: white;
+    text-decoration: underline;
+    padding: 20px 20px 20.5px 20px;
+}
+
+.top-menu li a <hover> {
+    background-color: red;
+}
+
+.current-page-link {
+    background-color: #db0e0e;
+}
+
+.page-content {
+    position: relative;
+    top: 145px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    z-index: 1;
+   
+}
+
+.main-section {
+    padding: 20px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: orange; region-break-inside:
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 960px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 50;
+    max-width: 20000 px;
+    margin-left: inherit;
+    margin-right: inherit;
+    background-color:#3f3c3c;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: ghostwhite;
+}
+
+.footer-content a:link {
+    color: white;
+    text-decoration: underline;
+}
